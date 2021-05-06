@@ -32,6 +32,8 @@ const config = {
             },
         },
         // ssr: false,
+        // hydrate: false,
+        //router: false,
     },
 }
 
