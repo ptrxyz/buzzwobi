@@ -136,7 +136,7 @@ async function load_component(file) {
     ...metadata_lookup[file]
   };
 }
-init({paths: {base: "/buzzwobi", assets: "/buzzwobi"}});
+init({paths: {base: "/buzzwobi/", assets: "/buzzwobi"}});
 function render(request, {
   prerender
 } = {}) {

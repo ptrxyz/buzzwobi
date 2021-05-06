@@ -83,7 +83,7 @@ async function load_component(file) {
 	};
 }
 
-init({ paths: {"base":"/buzzwobi","assets":"/buzzwobi"} });
+init({ paths: {"base":"/buzzwobi/","assets":"/buzzwobi"} });
 
 export function render(request, {
 	prerender

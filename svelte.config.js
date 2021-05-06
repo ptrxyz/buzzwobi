@@ -14,13 +14,13 @@ const config = {
         // adapter: node(),
         adapter: adapter({
             // default options are shown
-            pages: 'build',
-            assets: 'build',
+            pages: 'docs',
+            assets: 'docs',
             fallback: null,
         }),
 
         paths: {
-            base: '/buzzwobi',
+            base: '/buzzwobi/',
         },
 
         // hydrate the <div id="svelte"> element in src/app.html
