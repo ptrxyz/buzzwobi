@@ -1,0 +1,21 @@
+@import "src/lib/theme.scss";
+
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    --cl-accent: #{$cl-accent};
+    --cl-light-accent: #{$cl-light-accent};
+}
